@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Titan_w_clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body{
+	 margin:0px;
+	}
+	nav{
+	 position:sticky;
+	 top:0;
+	}
+    .d1{
+	  height:40px;
+	  width:100%;
+	  border:solid black 1px;
+	  background-color:black;
+	  margin:0px;
+	  color:white;
+	  text-align:center;
+	}
+	marquee{
+	 margin-top:10px;
+	 font-family:arial ,sans-serif;
+	}
+	.d2{
+	 height:100px;
+	 width:100%;
+	 display:flex;
+	 border-bottom:solid lightgrey 3px;
+	 background-color:white;
+	}
+	.d2cim{
+	 height:80px;
+	 width:230px;
+	 border:solid black 0px;
+	 margin:10px 0px 0px 30px;
+	}
+	.d2cit{
+	 height:80px;
+	 width:230px;
+	}
+	.d3{
+	 height:45px;
+	 width:50%;
+	 border:solid lightgrey 1px;
+	 border-radius:5px;
+	 background-color:white;
+	 margin:28px 0px 0px 40px;
+	}
+	.ic{
+	 font-size:22px;
+	 margin:10px 0px 0px 25px;
+	 display:inline-block;
+	}
+	.input{
+	 height:30px;
+	 width:80%;
+	 border:none;
+	 font-size:18px;
+	 font-family:arial ,sans-serif;	
+     margin-left:10px;	 
+	}
+	.ic1{
+	 font-size:28px;
+	 margin:26px 0px 0px 43px;
+	 display:inline-block;
+	}
+	.d3cp{
+	 font-size:16px;
+	 font-family:arial ,sans-serif;	
+     margin:7px 0px 0px 36px	 
+	}
+	.d4{
+	 height:50px;
+	 width:100%;
+	 border:solid lightgrey 0px;
+	}
+	.d4s1{
+	 margin:15px 0px 0px 80px ;
+	 display:inline-block;
+	 font-family:arial ,sans-serif;	
+     font-size:14px;
+     font-weight:bold;	 
+	}
+	.d4s2{
+	 margin:15px 0px 0px 30px ;
+	 display:inline-block;
+	 font-family:arial ,sans-serif;	
+     font-size:14px;
+     font-weight:bold;	 	 	 
+	}
+	.d5{
+	 height:40px;
+	 width:100%;
+	 border:solid black 0px;
+	 background-color:#F5F5F5;
+	 text-align:center;
+	 font-family:arial ,sans-serif;	
+	 font-size:20px;
+	}
+	.d5cp{
+	  margin:10px 0px 0px 0px;
+	}
+	.ic2{
+	 margin-right:20px;
+	}
+	.pho{
+	 font-size:14px;
+	 font-family:arial ,sans-serif;	
+     margin:20px 0px 0px 100px;;
+	 color:grey;
+	 gap:60px;
+	}
+	.ic3{
+	 font-size:16px;
+	 margin:30px;
+	}
+	.d6{
+	 height:1020px;
+	 width:19%;
+	 border:solid black 0px;
+	 margin:20px 0px 0px 50px;
+	}
+	.d6c1{
+	 height:50px;
+	 width:85%;
+	 border:solid lightgrey 1px;
+	 border-radius:5px;
+	 margin:20px 0px 0px 20px;
+	}
+	.d61cp{
+	 font-size:16px;
+	 font-family:arial ,sans-serif;	
+     text-align:center;
+     color:grey;	 
+	}
+	.d6cs1{
+	 font-size:16px;
+	 font-family:arial ,sans-serif;	
+     display:inline-block;
+     margin:20px 0px 0px 30px;	 
+	}
+	.d6cs2{
+	 color:grey;
+	 border-bottom:solid lightgrey 2px;
+	 margin-left:50px;
+	 font-size:14PX;
+	}
+	.hri{
+	 border:solid lightgrey 1px;
+	 width:75%;
+	 margin:25px 0px 0px 50px;
+	}
+	h4{
+	 margin:25px 0px 0px 40px;
+	 font-family:arial ,sans-serif;
+	}
+	.d61cp4{
+     font-size:16px;
+	 font-family:arial ,sans-serif;
+     margin:30px 0px 0px 55px;	 
+	}
+	.d61cp4:hover{
+	 color:grey;
+	}
+	.hrr{
+     border:solid lightgrey 1px;
+	 width:75%;
+	 margin:15px 0px 0px 50px;
+	}
+	.d61cp5{
+	 font-size:16px;
+	 font-family:arial ,sans-serif;
+     margin:20px 0px 0px 55px;
+	 font-weight:bold;
+	}
+	.ic4{
+	 font-size:18px;
+	 margin-left:115px;
+	 color:grey;
+	}
+	.margi{
+	 margin-left:85px;
+	}
+	section{
+	 display:flex;
+	 flex-wrap:onwrap;
+	}
+	.impor{
+	 height:700px;
+	 width:85%;
+	 border:solid black 0px;
+	}
+	.d7{
+	 height:85px;
+	 width:100%;
+	 border:solid black 0px;
+	 margin:40px 0px 0px 20px;
+	 border-radius:5px;
+	}
+    .d7im{
+	 height:85px;
+	 width:96%;
+	 border-radius:5px;
+	}
+	.d8{
+	 height:65px;
+	 width:96%;
+	 border:solid grey 0px;
+	 margin:35px 0px 0px 20px;
+	 border-radius:5px;
+     background-color:#F5DDD1;
+     position:sticky;
+	 top:20%;
+	}
+	.d8cim{
+	 height:65px;
+	 width:10%;
+	 border:solid black 0px;
+	}
+	.d8cs{
+	 margin:15px 0px 0px 20px;
+	 display:inline-block;
+	 vertical-align:top;
+	 font-size:18;
+	 font-weight:bold;
+	}
+	.d8cs1{
+	 font-size:12px;
+	 color:;
+	 font-weight:none;
+	}
+	.d8cs2{
+	 font-size:18px;
+	 font-family:arial ,sans-serif;
+	 margin:20px 0px 0px 45%;
+	 display:inline-block;
+	 vertical-align:top;
+	}
+	.pos{
+     height:1020px;
+	 width:100%;
+	 border:solid black 1px;
+	 position:sticky;
+	 top:50%;
+	}
+  </style>
+</head>
+   <body>
+		  <div class="d1">
+		     <marquee scrollamount="10">Get Upto 500 Cashback via Scratch Card on transaction via Mobikwik UPI. T&C Apply*.</marquee>
+		 </div>
+     <nav>
+		 
+		 <div class="d2">
+		     <div class="d2cim">
+			     <img src="https://www.titan.co.in/on/demandware.static/Sites-Titan-Site/-/default/dw13c6cafa/images/header/titan-logo.svg" class="d2cit">
+			 </div>
+			 <div class="d3">
+		         <i class="ri-search-line ic"></i>
+				 <input type="text" name="text" placeholder="Search raga" class="input">
+				 <i class="ri-mic-line ic"></i>
+		     </div>
+			 <div>
+			     <i class="ri-user-3-line ic1"></i><p class="d3cp">Account</p>
+			 </div>
+			 <div>
+			     <i class="ri-heart-line ic1"></i><p class="d3cp">Wishlist</p>
+			 </div>
+			 <div>
+			     <i class="ri-shopping-bag-line ic1"></i><p class="d3cp" style="margin-left:43px;">Cart</p>
+			 </div>
+			 <div>
+			     <i class="ri-heart-line ic1"></i><p class="d3cp">Wishlist</p>
+			 </div>
+		 </div>
+	 </nav>
+		 
+		 <div class="d4">
+		     <span class="d4s1">MEN</span>
+			 <span class="d4s2">WOMWEN</span>
+			 <span class="d4s2">SMART WATCHES</span>
+			 <span class="d4s2">PREMIUM WATCHES</span>
+			 <span class="d4s2">WATCHES</span>
+			 <span class="d4s2">INTERNATIONAL BRANDS</span>
+			 <span class="d4s2">DISCOVER</span>
+			 <span class="d4s2">GIFTING</span>
+			 <span class="d4s2">SALE</span>
+			 <span class="d4s2">SERVICE</span>
+			 <span class="d4s2">MORE</span>
+		 </div>
+	 <div class="d5"><p class="d5cp"><i class="ri-map-pin-fill ic2"></i><span style="display:inline-block;margin-top:10px;">Check avaliability by location<i class="ri-arrow-right-long-line" style="margin-left:20px;"></i></span></p></div>
+	 <p class="pho">Home <i class="ri-arrow-right-s-line ic3"></i><span style="color:black;margin-right:50px;">Watchs on sale</span>915 items | Titan Watches Sale</p>
+	<section>
+	 <div class="d6">
+	 <div class="pos">
+	     <div class="d6c1">
+		     <p class="d61cp">SORT BY: <span style="color:black;margin-right:15px;"> Best Sellers</span><i class="ri-arrow-down-s-line "></i></p>
+		 </div>
+		 <span class="d6cs1"><i class="ri-equalizer-2-line "></i> Filter By<span class="d6cs2">CLEAR ALL</span></span>
+		  <hr class="hri">
+		 <h4>Brands</h4>
+		 <p class="d61cp4"><i class="ri-square-line "></i> Titan <span style="color:grey">(379)</span></p>
+		 <p class="d61cp4"><i class="ri-square-line "></i> Fastrack <span style="color:grey">(199)</span></p>
+		 <p class="d61cp4"><i class="ri-square-line "></i> Raga <span style="color:grey">(71)</span></p>
+		 <p class="d61cp4"><i class="ri-square-line "></i> Ann Klein <span style="color:grey">(61)</span></p>
+		 <p class="d61cp4"><i class="ri-square-line "></i> Kenneth Cole<span style="color:grey">(51)</span></p>
+		 <p class="d61cp4"><i class="ri-square-line "></i> Vyb <span style="color:grey">(48)</span></p>
+         <p class="d61cp4"><i class="ri-square-line "></i> Xylys <span style="color:grey">(39)</span></p>
+         <p class="d61cp4"><u> See More</u> <i class="ri-arrow-down-s-line "></i></p>
+             <hr class="hrr">
+		 <p class="d61cp5">Price <i class="ri-add-line ic4"></i></p>
+		     <hr class="hrr">
+		<p class="d61cp5">Occasion<i class="ri-add-line ic4 margi"></i></p>
+		     <hr class="hrr">
+		<p class="d61cp5">Gender <i class="ri-add-line ic4" style="margin-left:97px;"></i></p>
+		     <hr class="hrr">
+		<p class="d61cp5">Function <i class="ri-add-line ic4 margi"></i></p>
+		     <hr class="hrr">
+		<p class="d61cp5">Discount <i class="ri-add-line ic4 margi"></i></p>
+		     <hr class="hrr">
+         <p class="d61cp5">Collection <i class="ri-add-line ic4 margi" style="margin-left:75px"></i></p>
+		     <hr class="hrr">
+         <p class="d61cp5">Dial Size <i class="ri-add-line ic4 margi "></i></p>
+		     <hr class="hrr">
+         <p class="d61cp5">Avaliability<i class="ri-add-line ic4 margi" style="margin-left:70px"></i></p>
+		     <hr class="hrr">			 
+	 </div>
+	 </div>
+	 <div class="impor">
+	 <div class="d7">
+	     <img src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw480e0feb/images/PLP_Banner/Ti_smrtplp_60_d.jpg" class="d7im">
+	 </div>
+	 <div class="d8">
+	     <img src="https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dw7b7519bc/images/PLP/fastest-delivery.png" class="d8cim">
+		 <p class="d8cs">Next Day Delivary <i class="ri-arrow-right-wide-line"></i><br><span class="d8cs1">Shop products that can reach you in just 48 hours</span></p>
+		 <span class="d8cs2">Compare</span>
+		 
+	 </div>
+	 </div>
+	 </section>
+   </body>
+</html>
